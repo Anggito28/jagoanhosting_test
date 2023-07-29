@@ -27,53 +27,45 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Pembayaran</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Management Administrator</h1>
                     </div>
 
                     <!-- Form add house -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Form Tambah Pembayaran</h6>
+                            <h6 class="m-0 font-weight-bold text-primary">Form Tambah Admin</h6>
                         </div>
                         <div class="card-body">
                             <form action="" method="POST">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
+                                            <label for="name">Email</label>
+                                            <input type="email" name="email" class="form-control"
+                                                placeholder="example@mail.com" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
                                             <label for="name">Nama Lengkap</label>
-                                            <select name="name" id="" class="form-control" required>
-                                                <option selected disabled>--Pilih Status--</option>
-                                                <option>Suprapto</option>
-                                            </select>
+                                            <input type="text" name="name" class="form-control"
+                                                placeholder="example" required>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="name">Nomor Telepon</label>
-                                            <select name="name" id="" class="form-control" required>
-                                                <option selected disabled>--Pilih Status--</option>
-                                                <option>nama, 085232325342</option>
-                                            </select>
+                                            <label for="kebersihan">Password</label>
+                                            <input type="password" name="password" class="form-control"
+                                                placeholder="password" required>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="kebersihan">Pembayaran Kebersihan</label>
-                                            <select class="form-control" name="kebersihan" id="" required>
-                                                <option selected disabled>--Pilih Status--</option>
-                                                <option>Lunas</option>
-                                                <option>Belum Lunas</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="keamanan">Pembayaran Keamanan</label>
-                                            <select class="form-control" name="keamanan" id="" required>
-                                                <option selected disabled>--Pilih Status--</option>
-                                                <option>Lunas</option>
-                                                <option>Belum Lunas</option>
-                                            </select>
+                                            <div class="form-group">
+                                                <label for="kebersihan">Password Confirmation</label>
+                                                <input type="password" name="password" class="form-control"
+                                                    placeholder="password confirmation" required>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

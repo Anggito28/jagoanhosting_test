@@ -40,3 +40,11 @@ Route::get('tambah-penghuni', function () {
 Route::get('tambah-pembayaran', function () {
     return view('add_pembayaran');
 });
+
+Route::get('admin_manage', function () {
+    return view('add_admin');
+});
+
+Route::get('login', function () {
+    return view('login');
+});
